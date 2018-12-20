@@ -11,14 +11,228 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imgAssessTreatment"
+                            android:layout_gravity="start"
+                            android:src="@drawable/medical_symptoms"
+                            android:background="@color/colorBackground"
+                            android:contentDescription="@string/asses_treatment_text"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/asses_treatment_text"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imgTreatChild"
+                            android:layout_gravity="start"
+                            android:src="@drawable/treatment_syringe"
+                            android:background="@color/colorBackground"
+                            android:contentDescription="@string/treat_child_text"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/treat_child_text"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imgCounselMother"
+                            android:layout_gravity="start"
+                            android:src="@drawable/medical_symptoms"
+                            android:background="@color/colorBackground"
+                            android:contentDescription="@string/counsel_mother_text"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/counsel_mother_text"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imgFollowUpCare"
+                            android:layout_gravity="start"
+                            android:src="@drawable/treatment_syringe"
+                            android:background="@color/colorBackground"
+                            android:contentDescription="@string/follow_up_care_text"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/follow_up_care_text"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" >
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imgHIVCare"
+                            android:layout_gravity="start"
+                            android:src="@drawable/medical_symptoms"
+                            android:background="@color/colorBackground"
+                            android:contentDescription="@string/hiv_care_text"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/hiv_care_text"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="16dp" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imgGallery"
+                            android:layout_gravity="start"
+                            android:src="@drawable/treatment_syringe"
+                            android:background="@color/colorBackground"
+                            android:contentDescription="@string/gallery_text"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/gallery_text"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
 
     </ScrollView>
 

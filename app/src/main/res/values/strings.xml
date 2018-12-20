@@ -9,4 +9,10 @@
     <string name="bitbytes_text">BitBytes</string>
     <string name="version_text">Version 1.0</string>
     <string name="app_logo_or_user_dp">user\'s display picture or app logo</string>
+    <string name="asses_treatment_text"><![CDATA[Assess, Classify & Identify Treatment]]></string>
+    <string name="treat_child_text">Treat the Infant / Child</string>
+    <string name="counsel_mother_text">Counsel the Mother</string>
+    <string name="follow_up_care_text">Follow Up Care</string>
+    <string name="hiv_care_text">HIV Care for Children</string>
+    <string name="gallery_text">Gallery</string>
 </resources>
