@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard_menu"
+        android:title="@string/dashboard_title" />
+
+    <item
+        android:id="@+id/elements_menu"
+        android:title="@string/elements_title" />
+
+    <item
+        android:id="@+id/notification_menu"
+        android:title="@string/notifications_title" />
+
+    <item
+        android:id="@+id/profile_menu"
+        android:title="@string/profile_title" />
+</menu>

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">TA</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="profile_title">Profile</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="elements_title">Elements</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="bitbytes_text">BitBytes</string>
+    <string name="version_text">Version 1.0</string>
+    <string name="app_logo_or_user_dp">user\'s display picture or app logo</string>
 </resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="#dd7fef2f"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+    <!-- We can replace this image with the user display picture if user
+     is registered otherwise the apps logo will appear here -->
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/profile_picture"
+        android:src="@drawable/logo_or_profile_image"
+        android:contentDescription="@string/app_logo_or_user_dp" />
+
+    <!-- we can replace this with the full name of the user in the case of registered person -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblName"
+        android:text="@string/bitbytes_text"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version_text"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
