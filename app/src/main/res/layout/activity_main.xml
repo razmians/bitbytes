@@ -23,15 +23,16 @@
                 android:gravity="center" >
 
                 <android.support.v7.widget.CardView
-                    android:layout_width="140dp"
+                    android:layout_width="0dp"
                     android:layout_height="80dp"
+                    android:layout_weight="1"
                     android:layout_margin="16dp" >
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal"
-                        android:background="#ca3333"
+                        android:background="#EF6C00"
                         android:gravity="center">
 
                         <ImageView
@@ -47,9 +48,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
+                            android:layout_margin="5dp"
                             android:gravity="center_horizontal"
-                            android:textColor="#ffffff"
+                            android:textColor="@color/colorTextMain"
                             android:textStyle="bold"
                             android:text="@string/asses_treatment_text"
                             android:textSize="12sp" />
@@ -59,14 +60,16 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:layout_width="140dp"
+                    android:layout_width="0dp"
                     android:layout_height="80dp"
+                    android:layout_weight="1"
                     android:layout_margin="16dp" >
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal"
+                        android:background="#FB8C00"
                         android:gravity="center">
 
                         <ImageView
@@ -82,9 +85,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
+                            android:layout_margin="5dp"
                             android:gravity="center_horizontal"
                             android:text="@string/treat_child_text"
+                            android:textColor="@color/colorTextMain"
+                            android:textStyle="bold"
                             android:textSize="12sp" />
 
                     </LinearLayout>
@@ -98,14 +103,16 @@
                 android:gravity="center" >
 
                 <android.support.v7.widget.CardView
-                    android:layout_width="140dp"
+                    android:layout_width="0dp"
                     android:layout_height="80dp"
+                    android:layout_weight="1"
                     android:layout_margin="16dp" >
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal"
+                        android:background="#01579B"
                         android:gravity="center">
 
                         <ImageView
@@ -121,9 +128,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
+                            android:layout_margin="5dp"
                             android:gravity="center_horizontal"
                             android:text="@string/counsel_mother_text"
+                            android:textColor="@color/colorTextMain"
+                            android:textStyle="bold"
                             android:textSize="12sp" />
 
                     </LinearLayout>
@@ -131,14 +140,16 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:layout_width="140dp"
+                    android:layout_width="0dp"
                     android:layout_height="80dp"
+                    android:layout_weight="1"
                     android:layout_margin="16dp" >
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal"
+                        android:background="#FFC107"
                         android:gravity="center">
 
                         <ImageView
@@ -154,9 +165,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
+                            android:layout_margin="5dp"
                             android:gravity="center_horizontal"
                             android:text="@string/follow_up_care_text"
+                            android:textColor="@color/colorTextMain"
+                            android:textStyle="bold"
                             android:textSize="12sp" />
 
                     </LinearLayout>
@@ -170,14 +183,16 @@
                 android:gravity="center" >
 
                 <android.support.v7.widget.CardView
-                    android:layout_width="140dp"
+                    android:layout_width="0dp"
                     android:layout_height="80dp"
+                    android:layout_weight="1"
                     android:layout_margin="16dp" >
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal"
+                        android:background="#FF6F00"
                         android:gravity="center">
 
                         <ImageView
@@ -193,9 +208,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
+                            android:layout_margin="5dp"
                             android:gravity="center_horizontal"
                             android:text="@string/hiv_care_text"
+                            android:textColor="@color/colorTextMain"
+                            android:textStyle="bold"
                             android:textSize="12sp" />
 
                     </LinearLayout>
@@ -203,21 +220,22 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
-                    android:layout_width="140dp"
+                    android:layout_width="0dp"
                     android:layout_height="80dp"
+                    android:layout_weight="1"
                     android:layout_margin="16dp" >
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal"
-                        android:gravity="center">
+                        android:background="#039BE5"
+                        android:gravity="center|start">
 
                         <ImageView
                             android:layout_width="70dp"
                             android:layout_height="match_parent"
                             android:id="@+id/imgGallery"
-                            android:layout_gravity="start"
                             android:src="@drawable/treatment_syringe"
                             android:background="@color/colorBackground"
                             android:contentDescription="@string/gallery_text"
@@ -226,9 +244,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
-                            android:gravity="center_horizontal"
+                            android:layout_marginStart="25dp"
                             android:text="@string/gallery_text"
+                            android:textColor="@color/colorTextMain"
+                            android:textStyle="bold"
                             android:textSize="12sp" />
 
                     </LinearLayout>
