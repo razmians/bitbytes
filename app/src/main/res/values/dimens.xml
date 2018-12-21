@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Margins of CardView -->
+    <dimen name="card_margins">5dp</dimen>
+
+    <!-- Minimum text size used -->
+    <dimen name="text_size_min">12sp</dimen>
+
+    <!-- padding of images inside CardView -->
+    <dimen name="card_image_padding">5dp</dimen>
+
+    <!-- Margin of text inside CardView -->
+    <dimen name="card_text_margin">5dp</dimen>
+
+    <!-- Max height of a CarView -->
+    <dimen name="card_height">120dp</dimen>
+</resources>
